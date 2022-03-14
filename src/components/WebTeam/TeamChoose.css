@@ -1,0 +1,21 @@
+.coose_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(20, 118, 184);
+}
+
+.coose_block p {
+    margin: 0;
+}
+
+.choose_button {
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 30px;
+    margin-top: 50px;
+}

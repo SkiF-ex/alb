@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98vh;
+}
+
+.button_hidden {
+    opacity: 0;
+}
+
+.button_item {
+    margin: auto;
+    border: none;
+    background-image: url(/public/images/arrow.png);
+    background-size: 100%;
+    background-color: transparent;
+    height: 30px;
+    width: 100px;
+    background-repeat: no-repeat;
+}
+
+.button_previous {
+    transform: rotate(180deg);
+}
+
+.profile {
+    height: 250px;
+    width: 180px;
+    padding: 20px;
+    margin-bottom: -30px;
+}
+
+.profile_avatar {
+    height: 155px;
+    width: 140px;
+    border: 1px solid black;
+}
+
+.profile_name, .profile_position, .profile_stat {
+    margin: 3px;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 5px 20px;
+    margin-top: -50px;
+}

@@ -1,0 +1,64 @@
+#webTeam {
+    position: relative;
+    height: 800px;
+    display: flex;
+}
+
+.page {
+    height: 800px;
+    width: 700px;
+    border: 1px solid black;
+    margin: 0 3px;
+}
+
+.developers {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+}
+
+.team_leaders {
+    margin-top: 0;
+}
+
+.team_logo {
+    height: 230px;
+    width: 150px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_logo p {
+    margin: 0;
+    font-size: 20px;
+    color: green;
+}
+
+.album_header {
+    display: flex;
+    padding: 40px 0 0 40px;
+}
+
+.team_info {
+    margin-left: 20px;
+}
+
+.head_title {
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.head_item {
+    color: rgb(74, 86, 252);
+    font-size: 20px;
+}
+
+.head_info {
+    width: 400px;
+    color: red;
+}

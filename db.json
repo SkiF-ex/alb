@@ -1,0 +1,670 @@
+{
+  "webprofiles": [
+    {
+      "id": 1,
+      "name": "Max",
+      "position": "team leader",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "name": "Dmytro",
+      "position": "sr product owner",
+      "id": 2,
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Iryna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Victoria",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Natalia",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Oleksiy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Max",
+      "position": "team leader",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "name": "Dmytro",
+      "position": "sr product owner",
+      "id": 16,
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Iryna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Victoria",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Natalia",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Oleksiy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    }
+  ],
+  "mobileprofiles": [
+    {
+      "id": 101,
+      "name": "Max",
+      "position": "team leader",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "name": "Dmytro",
+      "position": "sr product owner",
+      "id": 102,
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Iryna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 104,
+      "name": "Victoria",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 107,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 108,
+      "name": "Natalia",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 109,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Oleksiy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 111,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 112,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 113,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 114,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 115,
+      "name": "Max",
+      "position": "team leader",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "name": "Dmytro",
+      "position": "sr product owner",
+      "id": 116,
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 117,
+      "name": "Iryna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Victoria",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 119,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 120,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 121,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 122,
+      "name": "Natalia",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 123,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 124,
+      "name": "Oleksiy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 125,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 126,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 127,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 128,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 129,
+      "name": "Denys",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 130,
+      "name": "Andriy",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 131,
+      "name": "Dmytro",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 132,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    },
+    {
+      "id": 133,
+      "name": "Hanna",
+      "position": "developer",
+      "avatar": "non-profile.jpg"
+    }
+  ],
+  "stickers": [
+    {
+      "id": 1,
+      "photo": "av1.png"
+    },
+    {
+      "id": 2,
+      "photo": "av2.png"
+    },
+    {
+      "id": 3,
+      "photo": "av3.png"
+    },
+    {
+      "id": 4,
+      "photo": "av4.png"
+    },
+    {
+      "id": 5,
+      "photo": "av5.png"
+    },
+    {
+      "id": 6,
+      "photo": "av1.png"
+    },
+    {
+      "id": 7,
+      "photo": "av2.png"
+    },
+    {
+      "id": 8,
+      "photo": "av3.png"
+    },
+    {
+      "id": 9,
+      "photo": "av4.png"
+    },
+    {
+      "id": 10,
+      "photo": "av5.png"
+    },
+    {
+      "id": 11,
+      "photo": "av1.png"
+    },
+    {
+      "id": 12,
+      "photo": "av2.png"
+    },
+    {
+      "id": 13,
+      "photo": "av3.png"
+    },
+    {
+      "id": 14,
+      "photo": "av4.png"
+    },
+    {
+      "id": 15,
+      "photo": "av1.png"
+    },
+    {
+      "id": 16,
+      "photo": "av2.png"
+    },
+    {
+      "id": 17,
+      "photo": "av3.png"
+    },
+    {
+      "id": 18,
+      "photo": "av4.png"
+    },
+    {
+      "id": 19,
+      "photo": "av5.png"
+    },
+    {
+      "id": 20,
+      "photo": "av1.png"
+    },
+    {
+      "id": 21,
+      "photo": "av2.png"
+    },
+    {
+      "id": 22,
+      "photo": "av3.png"
+    },
+    {
+      "id": 23,
+      "photo": "av4.png"
+    },
+    {
+      "id": 24,
+      "photo": "av5.png"
+    },
+    {
+      "id": 25,
+      "photo": "av1.png"
+    },
+    {
+      "id": 26,
+      "photo": "av2.png"
+    },
+    {
+      "id": 27,
+      "photo": "av3.png"
+    },
+    {
+      "id": 28,
+      "photo": "av4.png"
+    },
+    {
+      "id": 29,
+      "photo": "av1.png"
+    },
+    {
+      "id": 30,
+      "photo": "av2.png"
+    },
+    {
+      "id": 31,
+      "photo": "av3.png"
+    },
+    {
+      "id": 32,
+      "photo": "av4.png"
+    },
+    {
+      "id": 101,
+      "photo": "av1.png"
+    },
+    {
+      "id": 102,
+      "photo": "av2.png"
+    },
+    {
+      "id": 103,
+      "photo": "av3.png"
+    },
+    {
+      "id": 104,
+      "photo": "av4.png"
+    },
+    {
+      "id": 105,
+      "photo": "av5.png"
+    },
+    {
+      "id": 106,
+      "photo": "av1.png"
+    },
+    {
+      "id": 107,
+      "photo": "av2.png"
+    },
+    {
+      "id": 108,
+      "photo": "av3.png"
+    },
+    {
+      "id": 109,
+      "photo": "av4.png"
+    },
+    {
+      "id": 110,
+      "photo": "av5.png"
+    },
+    {
+      "id": 111,
+      "photo": "av1.png"
+    },
+    {
+      "id": 112,
+      "photo": "av2.png"
+    },
+    {
+      "id": 113,
+      "photo": "av3.png"
+    },
+    {
+      "id": 114,
+      "photo": "av4.png"
+    },
+    {
+      "id": 115,
+      "photo": "av1.png"
+    },
+    {
+      "id": 116,
+      "photo": "av2.png"
+    },
+    {
+      "id": 117,
+      "photo": "av3.png"
+    },
+    {
+      "id": 118,
+      "photo": "av4.png"
+    },
+    {
+      "id": 119,
+      "photo": "av5.png"
+    },
+    {
+      "id": 120,
+      "photo": "av1.png"
+    },
+    {
+      "id": 121,
+      "photo": "av2.png"
+    },
+    {
+      "id": 122,
+      "photo": "av3.png"
+    },
+    {
+      "id": 123,
+      "photo": "av4.png"
+    },
+    {
+      "id": 124,
+      "photo": "av5.png"
+    },
+    {
+      "id": 125,
+      "photo": "av1.png"
+    },
+    {
+      "id": 126,
+      "photo": "av2.png"
+    },
+    {
+      "id": 127,
+      "photo": "av3.png"
+    },
+    {
+      "id": 128,
+      "photo": "av4.png"
+    },
+    {
+      "id": 129,
+      "photo": "av1.png"
+    },
+    {
+      "id": 130,
+      "photo": "av2.png"
+    },
+    {
+      "id": 131,
+      "photo": "av3.png"
+    },
+    {
+      "id": 132,
+      "photo": "av4.png"
+    },
+    {
+      "id": 133,
+      "photo": "av1.png"
+    }
+  ],
+  "packs": [
+    {
+      "packs": 3,
+      "id": 1
+    }
+  ],
+  "allocatedWebTeam": [
+
+  ],
+  "allocatedMobileTeam": [
+
+  ]
+}
