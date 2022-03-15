@@ -1,399 +1,467 @@
 {
-  "webprofiles": [
+  "developers": [
     {
       "id": 1,
-      "name": "Max",
-      "position": "team leader",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "name": "Dmytro",
-      "position": "sr product owner",
-      "id": 2,
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Iryna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Victoria",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Natalia",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Oleksiy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Max",
-      "position": "team leader",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "name": "Dmytro",
-      "position": "sr product owner",
-      "id": 16,
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 17,
-      "name": "Iryna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 18,
-      "name": "Victoria",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 19,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 20,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 21,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 22,
-      "name": "Natalia",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 23,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 24,
-      "name": "Oleksiy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 25,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 26,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 27,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 28,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 29,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 30,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 31,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 32,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
+      "team": [
+        {
+          "id": 1,
+          "name": "Max",
+          "position": "team leader",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 2,
+          "name": "Dmytro",
+          "position": "sr product owner",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 3,
+          "name": "Iryna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 4,
+          "name": "Victoria",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 5,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 6,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 7,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 8,
+          "name": "Natalia",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 9,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 10,
+          "name": "Oleksiy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 11,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 12,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 13,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 14,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 15,
+          "name": "Max",
+          "position": "team leader",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "name": "Dmytro",
+          "position": "sr product owner",
+          "id": 16,
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 17,
+          "name": "Iryna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 18,
+          "name": "Victoria",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 19,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 20,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 21,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 22,
+          "name": "Natalia",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 23,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 24,
+          "name": "Oleksiy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 25,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 26,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 27,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 28,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 29,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 30,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 31,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 32,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "web"
+        },
+        {
+          "id": 101,
+          "name": "Max",
+          "position": "team leader",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 102,
+          "name": "Dmytro",
+          "position": "sr product owner",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 103,
+          "name": "Iryna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 104,
+          "name": "Victoria",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 105,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 106,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 107,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 108,
+          "name": "Natalia",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 109,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 110,
+          "name": "Oleksiy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 111,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 112,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 113,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 114,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 115,
+          "name": "Max",
+          "position": "team leader",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 116,
+          "name": "Dmytro",
+          "position": "sr product owner",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 117,
+          "name": "Iryna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 118,
+          "name": "Victoria",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 119,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 120,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 121,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 122,
+          "name": "Natalia",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 123,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 124,
+          "name": "Oleksiy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 125,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 126,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 127,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 128,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 129,
+          "name": "Denys",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 130,
+          "name": "Andriy",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 131,
+          "name": "Dmytro",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 132,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        },
+        {
+          "id": 133,
+          "name": "Hanna",
+          "position": "developer",
+          "avatar": "non-profile.jpg",
+          "type": "mobile"
+        }
+      ]
     }
   ],
-  "mobileprofiles": [
-    {
-      "id": 101,
-      "name": "Max",
-      "position": "team leader",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "name": "Dmytro",
-      "position": "sr product owner",
-      "id": 102,
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 103,
-      "name": "Iryna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 104,
-      "name": "Victoria",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 105,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 106,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 107,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 108,
-      "name": "Natalia",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 109,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 110,
-      "name": "Oleksiy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 111,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 112,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 113,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 114,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 115,
-      "name": "Max",
-      "position": "team leader",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "name": "Dmytro",
-      "position": "sr product owner",
-      "id": 116,
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 117,
-      "name": "Iryna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 118,
-      "name": "Victoria",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 119,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 120,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 121,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 122,
-      "name": "Natalia",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 123,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 124,
-      "name": "Oleksiy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 125,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 126,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 127,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 128,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 129,
-      "name": "Denys",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 130,
-      "name": "Andriy",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 131,
-      "name": "Dmytro",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 132,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    },
-    {
-      "id": 133,
-      "name": "Hanna",
-      "position": "developer",
-      "avatar": "non-profile.jpg"
-    }
-  ],
-  "stickers": [
+  "avatars": [
     {
       "id": 1,
       "photo": "av1.png"
@@ -660,11 +728,5 @@
       "packs": 3,
       "id": 1
     }
-  ],
-  "allocatedWebTeam": [
-
-  ],
-  "allocatedMobileTeam": [
-
   ]
 }

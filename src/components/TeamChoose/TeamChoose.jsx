@@ -25,14 +25,14 @@ const TeamChoose = ({handlePage}) => {
                     <div className="coose_block">
                         <p>WEB TEAM</p>
                         <p>ALBUM</p>
-                        <button className="choose_button" onClick={() => handlePage(<WebTeam handlePage={handlePage} team={'webprofiles'} dataMock={DATA_MOCK_WEB_TEAM}/>)}>Open</button>
+                        <button className="choose_button" onClick={() => handlePage(<WebTeam handlePage={handlePage} team={'web'} dataMock={DATA_MOCK_WEB_TEAM}/>)}>Open</button>
                     </div>
                 </div>
                 <div className="page">
                     <div className="coose_block">
                         <p>MOBILE TEAM</p>
                         <p>ALBUM</p>
-                        <button className="choose_button" onClick={() => handlePage(<WebTeam handlePage={handlePage} team={'mobileprofiles'} dataMock={DATA_MOCK_MOBILE_TEAM}/>)}>Open</button>
+                        <button className="choose_button" onClick={() => handlePage(<WebTeam handlePage={handlePage} team={'mobile'} dataMock={DATA_MOCK_MOBILE_TEAM}/>)}>Open</button>
                     </div>
                 </div>
             </section>

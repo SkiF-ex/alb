@@ -5,6 +5,7 @@ import post from "../../api/post";
 import pasteStickers from "../../utils/paste";
 import getRandomArrayElement from "../../utils/getRandomArrayElement";
 import getCounter from "../../utils/getCounter";
+import arrayEdit from "../../utils/arrayEdit";
 
 
 const Daily = () => {
@@ -20,30 +21,30 @@ const Daily = () => {
     const handleOpen = () => {
         const get_stickers = () => {
             Promise.all([
-                fetch('http://localhost:3004/webprofiles'),
-                fetch('http://localhost:3004/mobileprofiles'),
-                fetch('http://localhost:3004/allocatedMobileTeam'),
-                fetch('http://localhost:3004/allocatedWebTeam'),
-                fetch('http://localhost:3004/stickers')])
-            .then((response) => Promise.all([response[0].json(), response[1].json(), response[2].json(), response[3].json(), response[4].json()]))
+                fetch('http://localhost:3004/developers'),
+                fetch('http://localhost:3004/avatars')])
+            .then((response) => Promise.all([response[0].json(), response[1].json()]))
             .then((data) => {
-                const webTeam = data[0];
-                const mobileprofiles = data[1];
-                const allocatedMobileTeam = data[2];
-                const allocatedWebTeam = data[3];
-                const allStickers = data[4];
+                let team = data[0][0].team;
+                const webTeam = team.filter(elem => elem.type === 'web');
+                const mobileTeam = team.filter(elem => elem.type === 'mobile');
+                const avatars = data[1];
 
-                const newWebStickers = pasteStickers(allocatedWebTeam, webTeam, getRandomArrayElement);
-                const newMobileStickers = pasteStickers(allocatedMobileTeam, mobileprofiles, getRandomArrayElement);
+                const newWebProfiles = pasteStickers(webTeam, getRandomArrayElement);
+                const newMobileProfiles = pasteStickers(mobileTeam, getRandomArrayElement);
+
+                team = arrayEdit(team, newWebProfiles, avatars);
+                team = arrayEdit(team, newMobileProfiles, avatars);
+
                 newStickerPack.splice(0, newStickerPack.length);
 
-                for (let i = 0; i < newWebStickers.length; i++) {
-                    newStickerPack.push(allStickers.find((elem) => elem.id === newWebStickers[i].id))
-                    newStickerPack.push(allStickers.find((elem) => elem.id === newMobileStickers[i].id))
+                for (let i = 0; i < newWebProfiles.length; i++) {
+                    newStickerPack.push(avatars.find((elem) => elem.id === newWebProfiles[i].id))
+                    newStickerPack.push(avatars.find((elem) => elem.id === newMobileProfiles[i].id))
                 }
                 setNewStickersPack(newStickerPack);
-    
-                post(newWebStickers, newMobileStickers, allStickers, stickerPacks);
+
+                post(team, stickerPacks);
                 setNewStickersOpened(true);
             });
         };

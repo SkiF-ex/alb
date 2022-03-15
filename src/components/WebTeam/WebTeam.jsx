@@ -11,7 +11,7 @@ const WebTeam = ({handlePage, team, dataMock}) => {
     const [endpoint, setEndpoint] = useState(14);
 
     useEffect(() => {
-        fetch(`http://localhost:3004/${team}`).then((response) => response.json()).then((data) => setDevelopers(data));
+        fetch(`http://localhost:3004/developers`).then((response) => response.json()).then((data) => setDevelopers(data[0].team.filter(elem => elem.type === team)));
     }, []);
 
     const handlePager = (state) => {
