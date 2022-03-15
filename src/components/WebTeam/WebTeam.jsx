@@ -1,9 +1,9 @@
 import Profile from "../molecules/Profile";
-import AlbumFirstPage from "./AlbumFirstPage";
+import AlbumFirstPage from "../AlbumPages/AlbumFirstPage";
 import { useEffect, useState } from "react";
 import './WebTeam.css'
-import AlbumSecondaryPage from "./AlbumSecondaryPage";
-import TeamChoose from "./TeamChoose";
+import AlbumSecondaryPage from "../AlbumPages/AlbumSecondaryPage";
+import TeamChoose from "../TeamChoose/TeamChoose";
 
 const WebTeam = ({handlePage, team, dataMock}) => {
     const [developers, setDevelopers] = useState('');

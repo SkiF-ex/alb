@@ -1,7 +1,7 @@
 import Daily from '../Daily/Daily';
 import './Homepage.css';
 import { useState } from 'react';
-import TeamChoose from '../WebTeam/TeamChoose';
+import TeamChoose from '../TeamChoose/TeamChoose';
 
 const Homepage = ({handlePage}) => {
     const [dailyStickersVisibility, setDailyStickersVisibility] = useState(false);

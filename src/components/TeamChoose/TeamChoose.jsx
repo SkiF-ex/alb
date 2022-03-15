@@ -1,5 +1,5 @@
 import Homepage from "../Homepage";
-import WebTeam from "./WebTeam";
+import WebTeam from "../WebTeam/WebTeam";
 import './TeamChoose.css';
 
 const DATA_MOCK_WEB_TEAM = {
