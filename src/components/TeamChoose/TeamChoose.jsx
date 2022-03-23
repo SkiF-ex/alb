@@ -1,26 +1,33 @@
 import React from "react";
-import Homepage from "../Homepage";
-import WebTeam from "../WebTeam/WebTeam";
-import './TeamChoose.css';
-import {DATA_MOCK_MOBILE_TEAM, DATA_MOCK_WEB_TEAM} from "./mock";
+import { Link } from "react-router-dom";
 
-const TeamChoose = ({handlePage}) => {
+import './TeamChoose.css';
+
+
+const TeamChoose = () => {
     return (
         <>
-            <button className="button_item button_previous" onClick={() => handlePage(<Homepage handlePage={handlePage}/>)} />
+            <Link to="/">
+                <button className="button_item button_previous"/>
+            </Link>
             <section id="webTeam">
                 <div className="page">
                     <div className="coose_block">
                         <p>WEB TEAM</p>
                         <p>ALBUM</p>
-                        <button className="choose_button web" onClick={() => handlePage(<WebTeam handlePage={handlePage} team={'web'} dataMock={DATA_MOCK_WEB_TEAM}/>)}>Open</button>
+                        <Link to="/our_team:web">
+                          <button className="choose_button web">Open</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="page">
                     <div className="coose_block">
                         <p>MOBILE TEAM</p>
                         <p>ALBUM</p>
-                        <button className="choose_button mobile" onClick={() => handlePage(<WebTeam handlePage={handlePage} team={'mobile'} dataMock={DATA_MOCK_MOBILE_TEAM}/>)}>Open</button>
+                        <Link to="/our_team:mobile">
+                          <button className="choose_button mobile" >Open</button>
+                        </Link>
+
                     </div>
                 </div>
             </section>
