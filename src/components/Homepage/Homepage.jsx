@@ -1,3 +1,4 @@
+import React from "react";
 import Daily from '../Daily/Daily';
 import './Homepage.css';
 import { useState } from 'react';
@@ -8,8 +9,8 @@ const Homepage = ({handlePage}) => {
 
     return (
         <>
-            {dailyStickersVisibility ? (<><Daily /><div onClick={() => setDailyStickersVisibility(!dailyStickersVisibility)} className="gray_window"></div></>) : null}
-            <button className="button_hidden button_item"></button>
+            {dailyStickersVisibility ? (<><Daily /><div onClick={() => setDailyStickersVisibility(!dailyStickersVisibility)} className="gray_window" /></>) : null}
+            <button className="button_hidden button_item" />
             <section id="section">
                 <div className="homepage">
                     <div className="homepage_title">
@@ -20,7 +21,7 @@ const Homepage = ({handlePage}) => {
                 </div>
                 <button className="get_stickers" onClick={() => setDailyStickersVisibility(!dailyStickersVisibility)}>GET YOUR DAILY STICKERS</button>
             </section>
-            <button className="button_item" onClick={() => handlePage(<TeamChoose handlePage={handlePage}/>)}></button>
+            <button className="button_item next_page" onClick={() => handlePage(<TeamChoose handlePage={handlePage}/>)} />
         </>
 
     )

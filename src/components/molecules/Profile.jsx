@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Profile = ({firstPoz, secondPoz, developers}) => {
     if (developers) {
         const profiles = developers.slice(firstPoz, secondPoz);

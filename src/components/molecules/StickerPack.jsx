@@ -1,3 +1,5 @@
+import React from 'react';
+
 const StickerPack = ({id, handleOpen}) => {
     return (            
     <div key={id} className="sticker_pack">

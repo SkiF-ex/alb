@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import StickerCard from "../molecules/StickerCard";
 import StickerPack from "../molecules/StickerPack";

@@ -1,0 +1,16 @@
+{
+    "collectCoverage": true,
+    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "moduleFileExtensions": ["js", "mjs", "jsx"],
+    "transform": {
+        "^.+\\.js$": "babel-jest",
+        "^.+\\.mjs$": "babel-jest",
+        "^.+\\.jsx$": "babel-jest"
+    },
+    "testRegex": "((\\.|/*.)(spec))\\.js?$",
+    "moduleNameMapper": {
+        "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
+        "\\.(jpg|png|jpeg|gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+}

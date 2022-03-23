@@ -1,3 +1,4 @@
+import React from 'react';
 import Profile from "../molecules/Profile";
 import AlbumFirstPage from "../AlbumPages/AlbumFirstPage";
 import { useEffect, useState } from "react";
@@ -29,7 +30,7 @@ const WebTeam = ({handlePage, team, dataMock}) => {
     }
     
     const leftButtonSwitch = (page) => {
-        return <button className="button_item button_previous" onClick={() => page < 2 ? handlePage(<TeamChoose handlePage={handlePage}/>) : handlePager(false)}></button>
+        return <button className="button_item button_previous" onClick={() => page < 2 ? handlePage(<TeamChoose handlePage={handlePage}/>) : handlePager(false)} />
     }
 
     return (
@@ -38,7 +39,7 @@ const WebTeam = ({handlePage, team, dataMock}) => {
             <section id="webTeam">
                 {isPage(page)}
             </section>
-            {endpoint >= developers.length ? <button className="button_hidden button_item"></button> : <button className="button_item" onClick={() =>  handlePager(true)}></button>}
+            {endpoint >= developers.length ? <button className="button_hidden button_item button_next" /> : <button className="button_item button_next" onClick={() => handlePager(true)} />}
         </>
 
     );

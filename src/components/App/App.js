@@ -1,4 +1,5 @@
-import Homepage from './components/Homepage/index';
+import React from 'react';
+import Homepage from '../Homepage/index';
 import './App.css';
 import { useState } from 'react';
 

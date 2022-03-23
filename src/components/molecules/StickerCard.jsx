@@ -1,3 +1,5 @@
+import React from 'react';
+
 const StickerCard = ({sticker}) => {
     return (            
     <div key={sticker.id} className="sticker_item">
