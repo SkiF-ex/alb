@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Daily component should render component 1`] = `
+<div
+  className="stickers_window"
+>
+  <p
+    className="stickers_header_title"
+  >
+    Daily sticker sets
+  </p>
+  <p
+    className="stickers_header_subtitle"
+  >
+    you have 
+    
+     sticker sets to open
+  </p>
+  <div
+    className="stickers_block"
+  />
+</div>
+`;
