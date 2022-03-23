@@ -4,7 +4,6 @@ import StickerCard from "../molecules/StickerCard";
 import StickerPack from "../molecules/StickerPack";
 import getCounter from "../../utils/getCounter";
 
-
 export const DailyRendering = ({ useGetStickers }) => {
   const [
     getStickers,
@@ -26,7 +25,7 @@ export const DailyRendering = ({ useGetStickers }) => {
         <p className="stickers_header_title">Daily sticker sets</p>
         <p className="stickers_header_subtitle">you have {stickerPacks} sticker sets to open</p>
         <div className="stickers_block">
-          {mock.map((elem) => <StickerPack id={elem} handleOpen={getStickers}/>)}
+          {mock.map((elem) => <StickerPack key={elem} handleOpen={getStickers}/>)}
         </div>
       </div>)
   }
@@ -37,7 +36,7 @@ export const DailyRendering = ({ useGetStickers }) => {
         <p className="stickers_header_title">Sticker set has opened</p>
         <p className="stickers_header_subtitle">you have 6 new stickers</p>
         <div className="stickers_block">
-          {newStickerPack.map((elem) => <StickerCard sticker={elem}/>)}
+          {newStickerPack.map((elem) => <StickerCard key={elem} sticker={elem}/>)}
         </div>
         <button className="button" onClick={() => {
           setNewStickersOpened(false);

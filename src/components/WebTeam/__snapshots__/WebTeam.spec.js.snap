@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WebTeam component should render component 1`] = `
+Array [
+  <section
+    id="webTeam"
+  >
+    <div
+      className="page"
+    >
+      <div
+        className="album_header"
+      >
+        <div
+          className="team_logo"
+        >
+          <p>
+            TEAM LOGO
+          </p>
+        </div>
+        <div
+          className="team_info"
+        >
+          <p
+            className="head_title"
+          >
+            WEB MOBILE TEAM
+          </p>
+          <p
+            className="head_item"
+          >
+            BLAZING FAST WEB
+          </p>
+          <p
+            className="head_info"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <p
+            className="head_info"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+      </div>
+      <div
+        className="developers team_leaders"
+      />
+      <div
+        className="developers"
+      />
+    </div>
+    <div
+      className="page"
+    >
+      <div
+        className="developers"
+      />
+    </div>
+  </section>,
+  <button
+    className="button_hidden button_item button_next"
+  />,
+]
+`;

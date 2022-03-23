@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DailyRendering component should render component 1`] = `
+<div
+  className="stickers_window"
+>
+  <p
+    className="stickers_header_title"
+  >
+    Sticker set has opened
+  </p>
+  <p
+    className="stickers_header_subtitle"
+  >
+    you have 6 new stickers
+  </p>
+  <div
+    className="stickers_block"
+  >
+    <div
+      className="sticker_item"
+    >
+      <img
+        alt="profile"
+        className="profile_avatar"
+        src="images/undefined"
+      />
+    </div>
+    <div
+      className="sticker_item"
+    >
+      <img
+        alt="profile"
+        className="profile_avatar"
+        src="images/undefined"
+      />
+    </div>
+    <div
+      className="sticker_item"
+    >
+      <img
+        alt="profile"
+        className="profile_avatar"
+        src="images/undefined"
+      />
+    </div>
+  </div>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Paste
+  </button>
+</div>
+`;

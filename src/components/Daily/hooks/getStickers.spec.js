@@ -1,14 +1,23 @@
 import { useGetStickers } from './getStickers';
+import fetchMock from 'fetch-mock';
 import { renderHook, act } from '@testing-library/react-hooks'
 
+import pasteStickers from "../../../utils/paste";
+import getRandomArrayElement from "../../../utils/getRandomArrayElement";
+import arrayEdit from "../../../utils/arrayEdit";
+
+jest.mock('../../../utils/paste');
+jest.mock('../../../utils/getRandomArrayElement');
+jest.mock('../../../utils/arrayEdit');
+
 describe('getStickers', () => {
-  it('should return functions', () => {
+  it('should return functions', async () => {
     const avatars = () => {
       return [{id: 1, photo: '1'}, {id: 2, photo: '1'}]
     };
 
     const developers = () => {
-      return {
+      return [{
         id: 1,
         team: [
           {
@@ -18,67 +27,94 @@ describe('getStickers', () => {
             avatar: "non-profile.jpg",
             type: "web"
           },
+          {
+            id: 2,
+            name: "Maxim",
+            position: "tech leader",
+            avatar: "non-profile.jpg",
+            type: "mobile"
+          }
         ]
-      }
+      }]
     };
 
-    const firstJson = jest.fn();
-    const secondJson = jest.fn();
+    fetchMock.get('http://localhost:3004/developers', developers);
+    fetchMock.get('http://localhost:3004/avatars', avatars);
+
+    pasteStickers.mockImplementationOnce(() => [
+      {
+        id: 1,
+        name: 'Max',
+        position: 'team leader',
+        avatar: 'non-profile.jpg',
+        type: 'web'
+      }
+    ]);
+    pasteStickers.mockImplementationOnce(() => [
+      {
+        id: 2,
+        name: 'Maxim',
+        position: 'tech leader',
+        avatar: 'non-profile.jpg',
+        type: 'mobile'
+      }
+    ]);
+
+    arrayEdit.mockImplementationOnce(() => [
+      {
+        id: 1,
+        name: 'Max',
+        position: 'team leader',
+        avatar: 'non-profile.jpg',
+        type: 'web'
+      }
+    ])
+
+    arrayEdit.mockImplementationOnce(() => [
+      {
+        id: 2,
+        name: 'Maxim',
+        position: 'tech leader',
+        avatar: 'non-profile.jpg',
+        type: 'mobile'
+      }
+    ])
 
     const { result } = renderHook(() => useGetStickers())
-    const promiseMock = jest.spyOn(Promise, 'all');
-    promiseMock.mockImplementationOnce(() => {
-      return Promise.resolve( [{json: firstJson}, {json: secondJson}])
-    })
-    promiseMock.mockImplementationOnce(async () => {
-      return 'mock-data';
-    })
 
     const [ getStickers ] = result.current;
 
-    getStickers();
-    //
-    // expect(firstJson).toHaveBeenCalled();
-    // expect(secondJson).toHaveBeenCalled();
+    await getStickers();
+
+    expect(pasteStickers).toHaveBeenCalledWith([
+      {
+        "avatar": "non-profile.jpg",
+        "id": 1, "name": "Max",
+        "position": "team leader",
+        "type": "web"
+      }],
+      getRandomArrayElement
+      )
+    expect(pasteStickers).toHaveBeenLastCalledWith([
+      {
+        "avatar": "non-profile.jpg",
+        "id": 2,
+        "name": "Maxim",
+        "position": "tech leader",
+        "type": "mobile"
+      }],
+      getRandomArrayElement
+      )
+
+    expect(arrayEdit).toHaveBeenCalledWith(
+      [{"avatar": "non-profile.jpg", "id": 1, "name": "Max", "position": "team leader", "type": "web"}, {"avatar": "non-profile.jpg", "id": 2, "name": "Maxim", "position": "tech leader", "type": "mobile"}],
+      [{"avatar": "non-profile.jpg", "id": 1, "name": "Max", "position": "team leader", "type": "web"}],
+      [{"id": 1, "photo": "1"}, {"id": 2, "photo": "1"}]
+    )
+    expect(arrayEdit).toHaveBeenLastCalledWith(
+      [{"avatar": "non-profile.jpg", "id": 1, "name": "Max", "position": "team leader", "type": "web"}],
+      [{"avatar": "non-profile.jpg", "id": 2, "name": "Maxim", "position": "tech leader", "type": "mobile"}],
+      [{"id": 1, "photo": "1"}, {"id": 2, "photo": "1"}]
+    );
   })
 })
-
-//
-// export const useGetStickers = () => {
-//   const [stickerPacks, setStickerPacks] = useState('');
-//   const [newStickerPack, setNewStickersPack] = useState([]);
-//   const [newStickersOpened, setNewStickersOpened] = useState(false);
-//
-//   const getStickers = () => {
-//     Promise.all([
-//       fetch('http://localhost:3004/developers'),
-//       fetch('http://localhost:3004/avatars')])
-//       .then((response) => Promise.all([response[0].json(), response[1].json()]))
-//       .then((data) => {
-//           let team = data[0][0].team;
-//           const webTeam = team.filter(elem => elem.type === 'web');
-//           const mobileTeam = team.filter(elem => elem.type === 'mobile');
-//           const avatars = data[1];
-//
-//           const newWebProfiles = pasteStickers(webTeam, getRandomArrayElement);
-//           const newMobileProfiles = pasteStickers(mobileTeam, getRandomArrayElement);
-//
-//           team = arrayEdit(team, newWebProfiles, avatars);
-//           team = arrayEdit(team, newMobileProfiles, avatars);
-//
-//           newStickerPack.splice(0, newStickerPack.length);
-//
-//           for (let i = 0; i < newWebProfiles.length; i++) {
-//             newStickerPack.push(avatars.find((elem) => elem.id === newWebProfiles[i].id))
-//             newStickerPack.push(avatars.find((elem) => elem.id === newMobileProfiles[i].id))
-//           }
-//           setNewStickersPack(newStickerPack);
-//
-//           post(team, stickerPacks);
-//           setNewStickersOpened(true);
-//         }
-//       );
-//   }
-//
-//   return [ stickerPacks, setStickerPacks, newStickerPack, newStickersOpened, setNewStickersOpened, getStickers ];
-// }

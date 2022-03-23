@@ -1,8 +1,8 @@
 import React from 'react';
 
-const StickerPack = ({id, handleOpen}) => {
-    return (            
-    <div key={id} className="sticker_pack">
+const StickerPack = ({handleOpen}) => {
+    return (
+    <div className="sticker_pack">
         <div className="sticker_blank">
             <div>
                 <p className="sticker_title">trendyol</p>

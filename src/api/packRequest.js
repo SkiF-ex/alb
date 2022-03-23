@@ -7,5 +7,5 @@ export const packRequest = async (stickerPacks) => {
     body: JSON.stringify({packs: stickerPacks - 1})
   });
 
-  return await response.json();
+  await response.json();
 }

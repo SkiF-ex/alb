@@ -13,7 +13,7 @@
           "id": 2,
           "name": "Dmytro",
           "position": "sr product owner",
-          "avatar": "non-profile.jpg",
+          "avatar": "av2.png",
           "type": "web"
         },
         {
@@ -41,7 +41,7 @@
           "id": 6,
           "name": "Andriy",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av1.png",
           "type": "web"
         },
         {
@@ -55,14 +55,14 @@
           "id": 8,
           "name": "Natalia",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av3.png",
           "type": "web"
         },
         {
           "id": 9,
           "name": "Denys",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "web"
         },
         {
@@ -76,14 +76,14 @@
           "id": 11,
           "name": "Denys",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av1.png",
           "type": "web"
         },
         {
           "id": 12,
           "name": "Andriy",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av2.png",
           "type": "web"
         },
         {
@@ -97,7 +97,7 @@
           "id": 14,
           "name": "Hanna",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "web"
         },
         {
@@ -111,7 +111,7 @@
           "name": "Dmytro",
           "position": "sr product owner",
           "id": 16,
-          "avatar": "non-profile.jpg",
+          "avatar": "av2.png",
           "type": "web"
         },
         {
@@ -125,7 +125,7 @@
           "id": 18,
           "name": "Victoria",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "web"
         },
         {
@@ -188,7 +188,7 @@
           "id": 27,
           "name": "Dmytro",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av3.png",
           "type": "web"
         },
         {
@@ -202,14 +202,14 @@
           "id": 29,
           "name": "Denys",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av1.png",
           "type": "web"
         },
         {
           "id": 30,
           "name": "Andriy",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av2.png",
           "type": "web"
         },
         {
@@ -223,7 +223,7 @@
           "id": 32,
           "name": "Hanna",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "web"
         },
         {
@@ -237,21 +237,21 @@
           "id": 102,
           "name": "Dmytro",
           "position": "sr product owner",
-          "avatar": "non-profile.jpg",
+          "avatar": "av2.png",
           "type": "mobile"
         },
         {
           "id": 103,
           "name": "Iryna",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av3.png",
           "type": "mobile"
         },
         {
           "id": 104,
           "name": "Victoria",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "mobile"
         },
         {
@@ -286,14 +286,14 @@
           "id": 109,
           "name": "Denys",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "mobile"
         },
         {
           "id": 110,
           "name": "Oleksiy",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av5.png",
           "type": "mobile"
         },
         {
@@ -314,7 +314,7 @@
           "id": 113,
           "name": "Dmytro",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av3.png",
           "type": "mobile"
         },
         {
@@ -328,7 +328,7 @@
           "id": 115,
           "name": "Max",
           "position": "team leader",
-          "avatar": "non-profile.jpg",
+          "avatar": "av1.png",
           "type": "mobile"
         },
         {
@@ -384,7 +384,7 @@
           "id": 123,
           "name": "Denys",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "mobile"
         },
         {
@@ -412,28 +412,28 @@
           "id": 127,
           "name": "Dmytro",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av3.png",
           "type": "mobile"
         },
         {
           "id": 128,
           "name": "Hanna",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "mobile"
         },
         {
           "id": 129,
           "name": "Denys",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av1.png",
           "type": "mobile"
         },
         {
           "id": 130,
           "name": "Andriy",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av2.png",
           "type": "mobile"
         },
         {
@@ -447,14 +447,14 @@
           "id": 132,
           "name": "Hanna",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av4.png",
           "type": "mobile"
         },
         {
           "id": 133,
           "name": "Hanna",
           "position": "developer",
-          "avatar": "non-profile.jpg",
+          "avatar": "av1.png",
           "type": "mobile"
         }
       ],
@@ -725,7 +725,7 @@
   ],
   "packs": [
     {
-      "packs": 3,
+      "packs": 0,
       "id": 1
     }
   ]

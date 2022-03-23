@@ -1,30 +1,22 @@
+import fetchMock from 'fetch-mock';
 import { packRequest } from '../packRequest'
 
-describe.skip('packRequest.js', () => {
+describe('packRequest.js', () => {
   it('should put stickers', async () => {
-    const jsonMethod = jest.fn(() => Promise.resolve(null))
+    fetchMock.put('http://localhost:3004/packs/1', {});
 
-    // window.fetch = () => {
-    //   return Promise.resolve({
-    //     json: jsonMethod,
-    //   })
-    // };
+    await packRequest(3);
 
-    // jest.spyOn(window, 'fetch').mockImplementation(
-    const response = await packRequest(3);
+    const url = fetchMock.lastUrl()
+    const options = fetchMock.lastOptions()
 
-    // expect(fetch).toHaveBeenLastCalledWith(
-    //   'http://localhost:3004/packs/1', {
-    //     method: 'PUT',
-    //     headers: {
-    //       'Content-Type': 'application/json'
-    //     },
-    //     body: JSON.stringify({packs: 2})
-    // })
-
-    expect(jsonMethod).toHaveBeenCalled();
-
-    expect(response).toBeNull();
-
+    expect(url).toEqual('http://localhost:3004/packs/1');
+    expect(options).toEqual({
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({packs: 2})
+    });
   })
 })
