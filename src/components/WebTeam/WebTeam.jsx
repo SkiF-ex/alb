@@ -10,14 +10,12 @@ import './WebTeam.css'
 
 
 
-const WebTeam = () => {
+const WebTeam = ({endpointProps = 14}) => {
     const teamParams = useParams()
     const team = teamParams.team.slice(1)
     const [page, setPage] = useState(1);
-    const [endpoint, setEndpoint] = useState(14);
+    const [endpoint, setEndpoint] = useState(endpointProps);
     const [developers] = useGetDevelopers(team);
-
-    console.log('---devs', developers);
 
     const dataMock = team === 'web' ? DATA_MOCK_WEB_TEAM : DATA_MOCK_MOBILE_TEAM;
 
