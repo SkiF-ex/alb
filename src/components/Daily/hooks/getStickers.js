@@ -8,6 +8,7 @@ export const useGetStickers = () => {
   const [stickerPacks, setStickerPacks] = useState('');
   const [newStickerPack, setNewStickersPack] = useState([]);
   const [newStickersOpened, setNewStickersOpened] = useState(false);
+  const [mock, setMock] = useState([]);
 
   const getStickers = async () => {
     await Promise.all([
@@ -22,8 +23,6 @@ export const useGetStickers = () => {
 
           const newWebProfiles = pasteStickers(webTeam, getRandomArrayElement);
           const newMobileProfiles = pasteStickers(mobileTeam, getRandomArrayElement);
-          console.log('newWebProfiles', newWebProfiles)
-          console.log('newMobileProfiles', newMobileProfiles)
           team = arrayEdit(team, newWebProfiles, avatars);
           team = arrayEdit(team, newMobileProfiles, avatars);
 
@@ -41,5 +40,5 @@ export const useGetStickers = () => {
       )
   }
 
-  return [ getStickers, stickerPacks, setStickerPacks, newStickerPack, newStickersOpened, setNewStickersOpened ];
+  return [ getStickers, stickerPacks, setStickerPacks, newStickerPack, newStickersOpened, setNewStickersOpened, mock, setMock ];
 }

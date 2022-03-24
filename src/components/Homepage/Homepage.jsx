@@ -1,8 +1,8 @@
 import React from "react";
-import Daily from '../Daily/Daily';
-import './Homepage.css';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import Daily from '../Daily/Daily';
+import './Homepage.css';
 
 const Homepage = () => {
     const [dailyStickersVisibility, setDailyStickersVisibility] = useState(false);
@@ -21,11 +21,10 @@ const Homepage = () => {
                 </div>
                 <button className="get_stickers" onClick={() => setDailyStickersVisibility(!dailyStickersVisibility)}>GET YOUR DAILY STICKERS</button>
             </section>
-          <Link to="/team">
-            <button className="button_item next_page" />
-          </Link>
+            <Link className="button_item next_page" to="/team">
+              <button className="button_item" />
+            </Link>
         </>
-
     )
 }
 

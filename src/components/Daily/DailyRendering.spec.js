@@ -1,12 +1,8 @@
 import { DailyRendering } from "./DailyRendering";
-// import {shallow} from "enzyme";
 import { act, create } from 'react-test-renderer';
 
-
-
 import React from "react";
-
-// const component = shallow(<Daily />);
+import {shallow} from "enzyme";
 
 describe('DailyRendering component', () => {
   it('should render component', () => {
@@ -14,8 +10,10 @@ describe('DailyRendering component', () => {
       jest.fn(),
       jest.fn(),
       jest.fn(),
-      ['elem1', 'elem2', 'elem3'],
+      [{id: 'elem1'}, {id: 'elem2'}, {id: 'elem3'}],
+      false,
       jest.fn(),
+      [1, 2, 3],
       jest.fn(),
     ];
 
@@ -26,7 +24,38 @@ describe('DailyRendering component', () => {
       );
     });
     expect(component.toJSON()).toMatchSnapshot();
-    // const wrapper = component.find(".stickers_window");
-    // expect(wrapper.length).toBe(1);
+  });
+
+  it('should find pack tree', () => {
+    const useGetStickers = () => [
+      jest.fn(),
+      jest.fn(),
+      jest.fn(),
+      [{id: 'elem1'}, {id: 'elem2'}, {id: 'elem3'}],
+      false,
+      jest.fn(),
+      [1, 2, 3],
+      jest.fn(),
+    ];
+
+    const component = shallow(<DailyRendering useGetStickers={useGetStickers}/>);
+    expect(component.find('.button').length).toBe(0);
+  });
+
+  it('should find set tree', () => {
+    const useGetStickers = () => [
+      jest.fn(),
+      jest.fn(),
+      jest.fn(),
+      [{id: 'elem1'}, {id: 'elem2'}, {id: 'elem3'}],
+      true,
+      jest.fn(),
+      [1, 2, 3],
+      jest.fn(),
+    ];
+
+    const component = shallow(<DailyRendering useGetStickers={useGetStickers}/>);
+    component.find('.button').simulate('click');
+    expect(component.find('.stickers_window').length).toBe(1);
   });
 })

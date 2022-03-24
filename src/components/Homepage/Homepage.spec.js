@@ -1,27 +1,34 @@
 import Homepage from "./Homepage";
-import {shallow} from "enzyme";
+import { act, create } from 'react-test-renderer';
 import React from "react";
-
-let counter = 0;
-
-const handlePage = (elem) => counter = 1
-const component = shallow(<Homepage handlePage={handlePage}/>);
+import {MemoryRouter} from "react-router";
+import {shallow} from "enzyme";
 
 describe('Homepage component', () => {
-  beforeEach(() => {
-    counter = 0;
-  });
-
   it('should render component', () => {
-    const wrapper = component.find("#section");
-
-    expect(wrapper.length).toBe(1);
+    let component;
+    act(() => {
+      component = create(
+        <MemoryRouter>
+          <Homepage />
+        </ MemoryRouter>
+      );
+    });
+    expect(component.toJSON()).toMatchSnapshot();
   });
 
-  it('should click on next_page button', () => {
-    const btn = component.find(".next_page");
-    btn.simulate('click');
+  it('should find .gray_window', () => {
+    const component = shallow(<Homepage />);
+    component.find('.get_stickers').simulate('click');
 
-    expect(counter).toEqual(1);
+    expect(component.find('.gray_window').length).toBe(1);
+  });
+
+  it('should close getStickers window', () => {
+    const component = shallow(<Homepage />);
+    component.find('.get_stickers').simulate('click');
+    component.find('.gray_window').simulate('click');
+
+    expect(component.find('.gray_window').length).toBe(0);
   });
 })

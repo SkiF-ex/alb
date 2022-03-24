@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamChoose component should render component 1`] = `
+Array [
+  <a
+    className="button_item button_previous"
+    href="/"
+    onClick={[Function]}
+  >
+    <button
+      className="button_item"
+    />
+  </a>,
+  <section
+    id="webTeam"
+  >
+    <div
+      className="page"
+    >
+      <div
+        className="coose_block"
+      >
+        <p>
+          WEB TEAM
+        </p>
+        <p>
+          ALBUM
+        </p>
+        <a
+          href="/our_team:web"
+          onClick={[Function]}
+        >
+          <button
+            className="choose_button web"
+          >
+            Open
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="page"
+    >
+      <div
+        className="coose_block"
+      >
+        <p>
+          MOBILE TEAM
+        </p>
+        <p>
+          ALBUM
+        </p>
+        <a
+          href="/our_team:mobile"
+          onClick={[Function]}
+        >
+          <button
+            className="choose_button mobile"
+          >
+            Open
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>,
+  <button
+    className="button_hidden button_item"
+  />,
+]
+`;

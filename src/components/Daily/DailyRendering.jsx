@@ -12,12 +12,14 @@ export const DailyRendering = ({ useGetStickers }) => {
     newStickerPack,
     newStickersOpened,
     setNewStickersOpened,
+    mock,
+    setMock,
   ] = useGetStickers();
-  const [mock, setMock] = useState([]);
+  // const [mock, setMock] = useState([]);
 
   useEffect(() => {
     getCounter(setStickerPacks, setMock);
-  }, [])
+  }, []);
 
   const stickerPacksTree = () => {
     return (
@@ -36,13 +38,12 @@ export const DailyRendering = ({ useGetStickers }) => {
         <p className="stickers_header_title">Sticker set has opened</p>
         <p className="stickers_header_subtitle">you have 6 new stickers</p>
         <div className="stickers_block">
-          {newStickerPack.map((elem) => <StickerCard key={elem} sticker={elem}/>)}
+          {newStickerPack.map((elem) => <StickerCard key={elem.id} sticker={elem}/>)}
         </div>
         <button className="button" onClick={() => {
           setNewStickersOpened(false);
           getCounter(setStickerPacks, setMock);
-        }}>Paste
-        </button>
+        }}>Paste</button>
       </div>)
   }
 

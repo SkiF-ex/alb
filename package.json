@@ -19,8 +19,7 @@
     "start": "react-scripts start",
     "test": "jest --setupFiles ./src/setupTests.js",
     "test:coverage": "jest --setupFiles ./src/setupTests.js --coverage",
-    "server": "json-server --watch db.json --port 3004",
-    "buildWebpack": "webpack"
+    "server": "json-server --watch db.json --port 3004"
   },
   "eslintConfig": {
     "extends": [

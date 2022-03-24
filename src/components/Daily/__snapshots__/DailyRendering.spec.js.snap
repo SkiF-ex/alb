@@ -7,49 +7,110 @@ exports[`DailyRendering component should render component 1`] = `
   <p
     className="stickers_header_title"
   >
-    Sticker set has opened
+    Daily sticker sets
   </p>
   <p
     className="stickers_header_subtitle"
   >
-    you have 6 new stickers
+    you have 
+     sticker sets to open
   </p>
   <div
     className="stickers_block"
   >
     <div
-      className="sticker_item"
+      className="sticker_pack"
     >
-      <img
-        alt="profile"
-        className="profile_avatar"
-        src="images/undefined"
-      />
+      <div
+        className="sticker_blank"
+      >
+        <div>
+          <p
+            className="sticker_title"
+          >
+            trendyol
+          </p>
+          <p
+            className="sticker_subtitle"
+          >
+            tech
+          </p>
+        </div>
+        <p
+          className="sticker_set"
+        >
+          sticker set
+        </p>
+      </div>
+      <button
+        className="sticker_button"
+        onClick={[MockFunction]}
+      >
+        Open
+      </button>
     </div>
     <div
-      className="sticker_item"
+      className="sticker_pack"
     >
-      <img
-        alt="profile"
-        className="profile_avatar"
-        src="images/undefined"
-      />
+      <div
+        className="sticker_blank"
+      >
+        <div>
+          <p
+            className="sticker_title"
+          >
+            trendyol
+          </p>
+          <p
+            className="sticker_subtitle"
+          >
+            tech
+          </p>
+        </div>
+        <p
+          className="sticker_set"
+        >
+          sticker set
+        </p>
+      </div>
+      <button
+        className="sticker_button"
+        onClick={[MockFunction]}
+      >
+        Open
+      </button>
     </div>
     <div
-      className="sticker_item"
+      className="sticker_pack"
     >
-      <img
-        alt="profile"
-        className="profile_avatar"
-        src="images/undefined"
-      />
+      <div
+        className="sticker_blank"
+      >
+        <div>
+          <p
+            className="sticker_title"
+          >
+            trendyol
+          </p>
+          <p
+            className="sticker_subtitle"
+          >
+            tech
+          </p>
+        </div>
+        <p
+          className="sticker_set"
+        >
+          sticker set
+        </p>
+      </div>
+      <button
+        className="sticker_button"
+        onClick={[MockFunction]}
+      >
+        Open
+      </button>
     </div>
   </div>
-  <button
-    className="button"
-    onClick={[Function]}
-  >
-    Paste
-  </button>
 </div>
 `;

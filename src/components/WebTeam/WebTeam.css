@@ -2,11 +2,12 @@
     position: relative;
     height: 800px;
     display: flex;
+    width: 100%;
 }
 
 .page {
     height: 800px;
-    width: 700px;
+    width: 100%;
     border: 1px solid black;
     margin: 0 3px;
 }

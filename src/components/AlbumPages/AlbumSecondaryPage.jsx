@@ -1,3 +1,5 @@
+import React from "react";
+
 const AlbumSecondaryPage = ({Profile, developers, endpoint}) => {
     return (
         <div className="page">

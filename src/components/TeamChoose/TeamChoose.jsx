@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 
 import './TeamChoose.css';
 
-
 const TeamChoose = () => {
     return (
         <>
-            <Link to="/">
-                <button className="button_item button_previous"/>
+            <Link to="/" className="button_item button_previous">
+                <button className="button_item"/>
             </Link>
             <section id="webTeam">
                 <div className="page">
@@ -27,7 +26,6 @@ const TeamChoose = () => {
                         <Link to="/our_team:mobile">
                           <button className="choose_button mobile" >Open</button>
                         </Link>
-
                     </div>
                 </div>
             </section>
