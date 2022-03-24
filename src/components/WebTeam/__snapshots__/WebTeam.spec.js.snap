@@ -1,3 +1,99 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`WebTeam component should render component 1`] = `null`;
+exports[`WebTeam component should render component 1`] = `
+Array [
+  <a
+    href="/team"
+  >
+     
+    <button
+      className="button_item"
+    />
+     
+  </a>,
+  <section
+    id="webTeam"
+  >
+    <div
+      className="page"
+    >
+      <div
+        className="album_header"
+      >
+        <div
+          className="team_logo"
+        >
+          <p>
+            TEAM LOGO
+          </p>
+        </div>
+        <div
+          className="team_info"
+        >
+          <p
+            className="head_title"
+          >
+            WEB TEAM
+          </p>
+          <p
+            className="head_item"
+          >
+            BLAZING FAST WEB
+          </p>
+          <p
+            className="head_info"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <p
+            className="head_info"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+      </div>
+      <div
+        className="developers team_leaders"
+      >
+        <div
+          className="profile"
+        >
+          <img
+            alt="profile"
+            className="profile_avatar"
+            src="images/non-profile.jpg"
+          />
+          <p
+            className="profile_name"
+          >
+            Max
+          </p>
+          <p
+            className="profile_position"
+          >
+            team leader
+          </p>
+          <p
+            className="profile_stat"
+          >
+            2 YR
+          </p>
+        </div>
+      </div>
+      <div
+        className="developers"
+      />
+    </div>
+    <div
+      className="page"
+    >
+      <div
+        className="developers"
+      />
+    </div>
+  </section>,
+  <button
+    className="button_hidden button_item button_next"
+  />,
+]
+`;

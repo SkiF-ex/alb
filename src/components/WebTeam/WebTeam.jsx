@@ -5,20 +5,21 @@ import Profile from "../molecules/Profile";
 import AlbumFirstPage from "../AlbumPages/AlbumFirstPage";
 import AlbumSecondaryPage from "../AlbumPages/AlbumSecondaryPage";
 import {DATA_MOCK_MOBILE_TEAM, DATA_MOCK_WEB_TEAM} from "../TeamChoose/mock";
+import { useGetDevelopers } from './hooks/useGetDevelopers';
 import './WebTeam.css'
+
+
 
 const WebTeam = () => {
     const teamParams = useParams()
     const team = teamParams.team.slice(1)
-    const [developers, setDevelopers] = useState('');
     const [page, setPage] = useState(1);
     const [endpoint, setEndpoint] = useState(14);
+    const [developers] = useGetDevelopers(team);
+
+    console.log('---devs', developers);
 
     const dataMock = team === 'web' ? DATA_MOCK_WEB_TEAM : DATA_MOCK_MOBILE_TEAM;
-
-    useEffect(() => {
-        fetch(`http://localhost:3004/developers`).then((response) => response.json()).then((data) => setDevelopers(data[0].team.filter(elem => elem.type === team)));
-    }, []);
 
     const handlePager = (state) => {
         return state ? (setPage(page + 1), setEndpoint(endpoint + 18)) : (setPage(page - 1), setEndpoint(endpoint - 18));
