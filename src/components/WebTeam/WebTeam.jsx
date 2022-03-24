@@ -15,6 +15,7 @@ const WebTeam = () => {
     const team = teamParams.team.slice(1)
     const [page, setPage] = useState(1);
     const [endpoint, setEndpoint] = useState(14);
+    console.log('tram', team);
     const [developers] = useGetDevelopers(team);
 
     console.log('---devs', developers);
